@@ -1,19 +1,39 @@
 <!DOCTYPE html> 
 <html>
 <head>
+  <meta charset="utf-8">
         <title>Adithya Pai </title>
 <link rel="stylesheet" type="text/css"  href="style.css">
-<link rel="shortcut icon" type="image/png" href="https://github.com/adithyapaib/adithyapai.com/blob/master/ad.png"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="script" type="text/javascript"  href="script.js">
+
 </head>
 <body>
-  <div class="welcome">
-    <h2>Welcome</h2>
+   <!-- Menu -->
+   <div id="menu-bar">
+    <div id="menu" onclick="onClickMenu()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="nav" id="nav">
+      <li><a href="https://adithyapai.com">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </div>
+  <div class="menu-bg" id="menu-bg"></div>
+  <script src="script.js"></script>
+ <!-- Homepage -->
+  <div class="welcome">
+    <h1>Welcome</h1>
+     </div>
   <section>
     <div class="loader"></div>
     <div class="count"></div>
   </section>
+   <!-- Script -->
   <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script  type="text/javascript">
   $(document).ready(function(){
@@ -28,8 +48,11 @@
         clearInterval(counter)
       }
       
-    },30)
+    },25)
   })
   </script>
+  
+ <!-- Menu script -->
+</script>
 </body>
 </html>
