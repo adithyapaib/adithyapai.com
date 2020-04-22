@@ -1,238 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-body
-{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  min-height: 10vh;
-  cursor: url('cursor.png') ,pointer;
+body{
+	background: #62a6ff;
 }
 section
 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #ffff;
-  pointer-events: none;
-  animation: fadeout .5s linear forwards;
-  animation-delay: 3.5s;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-@keyframes fadeout
+section h2
 {
- 0%
- {
-   opacity: 1;
- }
- 100%
- {
-   opacity: 0;
- }
+    position: relative;
+    font-size: 3em;
+    color: #fff;
 }
-.loader
+section svg
 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #000;
-}
-.count
-{
+    position: fixed;
+    top: 0;
+    left: 0;
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  font-size: 18vw;
-  color: #fff;
-  font-weight: 800;
-  mix-blend-mode: difference;
-  width: 550px;
-  text-align: right;
-
-}
-.welcome
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  color: #000;
-
-}
-h1{
-  margin: 0;
-  padding: 0;
-  font: 30vw;
-}
-
-* {
-  margin:0px;
-  padding:0px;
-  
- 
-}
-.toggleBtn {
-  position:fixed;
-  top:20px;
-  right:20px;
-  z-index:5;
-  cursor:pointer;
-  width:50px;
-  height:50px;
-}
-.toggleBtn span {
-  display:block;
-  width:40px;
-  height:5px;
-  background:#000;
-  margin:6px 0px; 
-  transition:all 300ms ease-in-out;
-}
-.toggleBtn.active span {
-  background:white;
-}
-.toggleBtn.active span:nth-child(2) {
-  opacity:0;
-}
-.toggleBtn.active span:nth-child(1) {
-  transform-origin:left;
-  transform:rotate(45deg) translateX(5px);
-}
-.toggleBtn.active span:nth-child(3) {
-  transform-origin:left;
-  transform:rotate(-45deg) translateY(5px);
-}
-
-.menu {
-  position:absolute;
-  top:0px;
-  left:0px;
-  width:100vw;
-  height:100vh;
-}
-.menu:before,.menu:after {
-  content:"";
-  position:absolute;
-  top:0px;
-  width:0vw;
-  height:100vh;
-  transition:all 400ms ease-in-out;
-  background:#b94071;
-}
-.menu:before {
-  left:0px;
-}
-.menu:after {
-  right:0px;
-}
-.menu.active:before,.menu.active:after {
-  width:50vw;
-}
-.menu ul {
-  position:absolute;
-  top:-100%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  text-align:center;
-  z-index:2;
-  transition:all 400ms ease-in-out 400ms;
-}
-.menu ul li {
-  list-style:none;
-  font-size:45px;
-  margin:5px 0px;
-  color:#fff;
-}
-.menu.active ul {
-  top:50%;
-}
-#menu{
-	width: 35px;
-	height: 30px;
-	margin: 30px 0 20px 20px;
-	cursor: pointer;
-}
-.bar{
-	height: 5px;
-	width: 100%;
-  background-color: #000
-  ;
-	display: block;
-	border-radius: 5px;
-	transition: 0.3s ease;
-}
-#bar1{
-	transform: translateY(-4px);
-}
-#bar3{
-	transform: translateY(4px);
-}
-.nav li a{
-	color: #fff;
-	text-decoration: none;
-}
-.nav li a:hover{
-	font-weight: bold;
-}
-.nav li{
-	list-style: none;
-	padding: 16px 0;
-}
-.nav{
-	padding: 0;
-	margin: 0 20px;
-	transition: 0.3s ease;
-	display: none;
-}
-.menu-bg, #menu-bar{
-	top: 0;
-	left: 0;
-	position: absolute;
-}
-.menu-bg{
-	z-index: 1;
-	width: 0;
-	height: 0;
-	margin: 30px 0 20px 20px;
-	background: radial-gradient(circle,#000,#000);
-	border-radius: 50%;
-  transition: 0.3s ease;
-}
-#menu-bar{
-  z-index: 2;	
-}
-.change-bg{
-	width: 550px;
-	height: 540px;
-	transform: translate(-60%,-30%);
-}
-.change .bar{
-	background-color: white;
-}
-.change #bar1{
-	transform: translateY(4px) rotateZ(-45deg);
-}
-.change #bar3{
-	transform: translateY(-6px) rotate(45deg);
-}
-.change #bar2{
-	opacity: 0;
-}
-.change{
-	display: block;
 }

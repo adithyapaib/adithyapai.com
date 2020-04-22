@@ -1,58 +1,51 @@
-<!DOCTYPE html> 
-<html>
-<head>
-  <meta charset="utf-8">
-        <title>Adithya Pai </title>
-<link rel="stylesheet" type="text/css"  href="style.css">
-<link rel="script" type="text/javascript"  href="script.js">
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css"  href="style.css">
+        <!-- ADD SCRIPTS HERE -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" integrity="sha256-cyEXrJKjO3YNkpCjPxVBdi7pRJ3EF+okm1oN9Qc4rRY=" crossorigin="anonymous"></script
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="typed.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <!-- END SCRIPTS--> 
+    </head>
+    <body>
+        <section>
+            <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path id="myID" d=""/></svg>
+         <div class="banner">
+         <h2>I am <span class="typed"> </span></h2>
+        </div>
+		
+		</section>
+           
+        <script>
+       var typed = new Typed('.typed', {
+strings: ['','Adithya Pai B ❤️','a Programer 💯','a Gamer🎮','a Web Designer 🌐','Ady🔥'],
+  backSpeed: 40,
+  typeSpeed: 60,
+  loop: true
+ 
+});
+          </script>
+        <script src="wavify.js"></script>
+        <script src="jquery.wavify.js"></script>
+     <script type="text/javascript">
+     var myWave = $('#myID').wavify({
+  height: 400,
+  bones: 5,
+  amplitude: 60,
+  color: '#000',
+  speed: .25
+});
+      </script>
 
-</head>
-<body>
-   <!-- Menu -->
-   <div id="menu-bar">
-    <div id="menu" onclick="onClickMenu()">
-      <div id="bar1" class="bar"></div>
-      <div id="bar2" class="bar"></div>
-      <div id="bar3" class="bar"></div>
-    </div>
-    <ul class="nav" id="nav">
-      <li><a href="https://adithyapai.com">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-  <div class="menu-bg" id="menu-bg"></div>
-  <script src="script.js"></script>
- <!-- Homepage -->
-  <div class="welcome">
-    <h1>Welcome</h1>
-     </div>
-  <section>
-    <div class="loader"></div>
-    <div class="count"></div>
-  </section>
-   <!-- Script -->
-  <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script  type="text/javascript">
-  $(document).ready(function(){
-    var count = 0;
-    var counter = setInterval(function(){
-      if(count < 101){
-        $('.count').text(count + '%');
-        $('.loader').css('width' , count + '%');
-        count++
-      }
-      else{
-        clearInterval(counter)
-      }
-      
-    },25)
-  })
-  </script>
-  
- <!-- Menu script -->
-</script>
-</body>
-</html>
+
+    </body>
+    </html>
