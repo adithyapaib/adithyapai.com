@@ -74,14 +74,14 @@ darkmode() { var element = document.body; element.classList.toggle("dark-mode");
     setTimeout(function()
     {
       $('#preloader').slideToggle(1200);
-    }, 800);
+    }, 3800);
 
     var typed = new Typed('.typed', {
       strings: ['\" If it is important to you, <br> You will find a way.<br> If not, you’ll find an excuse! \" <br> — Ryan Blair  ','Welcome to my site ! 🙏 <br> Happy Scrolling : ) ', 'I am Adithya Pai B 💯', 'I am a Front-End Developer ✨', 'I am a UI/UX designer 🌈' , 'I am a Gamer 💙', 'If u like my work <br>leave a message ! ⚡' ],
         backSpeed: 10,
         typeSpeed: 40,
         loop: false,
-        startDelay: 3900,
+        startDelay: 4000,
        
       });
 
