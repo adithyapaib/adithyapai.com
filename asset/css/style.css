@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("/asset/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("/asset/css/animate.min.css");
 * {
   padding: 0;
@@ -508,15 +508,23 @@ canvas {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  -webkit-box-shadow: 10px 10px 10px #fafafa,  inset -10px -10px 10px #0000000c,     inset   10px 10px 10px #0000000c,  -10px -10px 20px #d6d6d6b0;
-          box-shadow: 10px 10px 10px #fafafa,  inset -10px -10px 10px #0000000c,     inset   10px 10px 10px #0000000c,  -10px -10px 20px #d6d6d6b0;
+  -webkit-box-shadow: 10px 10px 10px #fafafa, 
+ inset -10px -10px 10px #0000000c,    
+ inset   10px 10px 10px #0000000c, 
+ -10px -10px 20px #d6d6d6b0;
+          box-shadow: 10px 10px 10px #fafafa, 
+ inset -10px -10px 10px #0000000c,    
+ inset   10px 10px 10px #0000000c, 
+ -10px -10px 20px #d6d6d6b0;
 }
 
 .dark-mode .box {
   border-radius: 57px;
   background: linear-gradient(315deg, #090909, #070707);
-  -webkit-box-shadow: -10px -10px 20px #000000,  10px 10px 20px #141414;
-          box-shadow: -10px -10px 20px #000000,  10px 10px 20px #141414;
+  -webkit-box-shadow: -10px -10px 20px #000000, 
+ 10px 10px 20px #141414;
+          box-shadow: -10px -10px 20px #000000, 
+ 10px 10px 20px #141414;
 }
 
 .slid1 .box1 {
@@ -555,8 +563,10 @@ canvas {
       align-self: center;
   border-radius: 50%;
   background: linear-gradient(145deg, #cfcfcf, #f6f6f6);
-  -webkit-box-shadow: 7px 7px 6px #c1c1c1,  -7px -7px 6px #ffffff;
-          box-shadow: 7px 7px 6px #c1c1c1,  -7px -7px 6px #ffffff;
+  -webkit-box-shadow: 7px 7px 6px #c1c1c1, 
+ -7px -7px 6px #ffffff;
+          box-shadow: 7px 7px 6px #c1c1c1, 
+ -7px -7px 6px #ffffff;
   padding: 10px 8px 0px 8px;
   border: #080808 4px solid;
 }
@@ -665,8 +675,10 @@ canvas {
 .dark-mode .slid1 .box1 .adithya .img {
   border-radius: 50%;
   background: #080808;
-  -webkit-box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
-          box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
+  -webkit-box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
+          box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
   border: white 4px solid;
 }
 
@@ -977,8 +989,10 @@ canvas {
 
 .projects .dark-mode .project-card {
   background: #080808;
-  -webkit-box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
-          box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
+  -webkit-box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
+          box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
 }
 
 .projects .project-card {
@@ -1001,8 +1015,10 @@ canvas {
       flex-wrap: wrap;
   border-radius: 20px;
   background: #ffffff;
-  -webkit-box-shadow: inset 5px 5px 15px #bfbfbf93,  5px 5px 15px #ffffff;
-          box-shadow: inset 5px 5px 15px #bfbfbf93,  5px 5px 15px #ffffff;
+  -webkit-box-shadow: inset 5px 5px 15px #bfbfbf93, 
+ 5px 5px 15px #ffffff;
+          box-shadow: inset 5px 5px 15px #bfbfbf93, 
+ 5px 5px 15px #ffffff;
 }
 
 .projects .project-card:hover .site {
@@ -1096,15 +1112,19 @@ canvas {
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
-  -webkit-box-shadow: inset 1px 1px 3px #000000,  1px 1px 5px #ffffff33;
-          box-shadow: inset 1px 1px 3px #000000,  1px 1px 5px #ffffff33;
+  -webkit-box-shadow: inset 1px 1px 3px #000000, 
+ 1px 1px 5px #ffffff33;
+          box-shadow: inset 1px 1px 3px #000000, 
+ 1px 1px 5px #ffffff33;
 }
 
 .dark-mode .project-card {
   background: #080808;
   color: white !important;
-  -webkit-box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
-          box-shadow: 5px 5px 10px #030303,  -5px -5px 10px #0d0d0d;
+  -webkit-box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
+          box-shadow: 5px 5px 10px #030303, 
+ -5px -5px 10px #0d0d0d;
 }
 
 .dark-mode .project-card .site {
@@ -1113,8 +1133,10 @@ canvas {
 
 .dark-mode .project-card .img {
   background: #080808;
-  -webkit-box-shadow: inset 5px 5px 10px #030303,  -5px -5px 10px #000000;
-          box-shadow: inset 5px 5px 10px #030303,  -5px -5px 10px #000000;
+  -webkit-box-shadow: inset 5px 5px 10px #030303, 
+ -5px -5px 10px #000000;
+          box-shadow: inset 5px 5px 10px #030303, 
+ -5px -5px 10px #000000;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1166,8 +1188,10 @@ canvas {
   max-width: 85vw;
   border-radius: 30px;
   background: #ffffff;
-  -webkit-box-shadow: 5px -5px 18px #cfcfcf94,  -5px 5px 18px #ffffff;
-          box-shadow: 5px -5px 18px #cfcfcf94,  -5px 5px 18px #ffffff;
+  -webkit-box-shadow: 5px -5px 18px #cfcfcf94, 
+ -5px 5px 18px #ffffff;
+          box-shadow: 5px -5px 18px #cfcfcf94, 
+ -5px 5px 18px #ffffff;
   padding: 40px;
 }
 
@@ -1242,8 +1266,10 @@ canvas {
 .dark-mode .form form {
   border-radius: 30px;
   background: #080808;
-  -webkit-box-shadow: -5px 5px 15px #030303,  5px -5px 10px #0d0d0d;
-          box-shadow: -5px 5px 15px #030303,  5px -5px 10px #0d0d0d;
+  -webkit-box-shadow: -5px 5px 15px #030303, 
+ 5px -5px 10px #0d0d0d;
+          box-shadow: -5px 5px 15px #030303, 
+ 5px -5px 10px #0d0d0d;
 }
 
 .dark-mode .form input {
