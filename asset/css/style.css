@@ -1147,19 +1147,19 @@ canvas {
 }
 
 .projects .s1 .img {
-  background-image: url("/img/project1.png");
+  background-image: url("/img/project1.webp");
 }
 
 .projects .s2 .img {
-  background-image: url("/img/project2.png");
+  background-image: url("/img/project2.webp");
 }
 
 .projects .s3 .img {
-  background-image: url("/img/project3.png");
+  background-image: url("/img/project3.webp");
 }
 
 .projects .s4 .img {
-  background-image: url("/img/project4.png");
+  background-image: url("/img/project4.webp");
 }
 
 .form {
