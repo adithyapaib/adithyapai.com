@@ -127,11 +127,10 @@
             let c = "#" + Math.random().toString(16).substring(2, 8).toUpperCase();
             console.log(c)
             document.getElementById("p1").value = c;
-            document.body.style.backgroundColor = c;
             var metaThemeColor = document.querySelector("meta[name=theme-color]");
             metaThemeColor.setAttribute("content",c);
-            
-        }
+           setTimeout(function(){ document.body.style.backgroundColor = c; }, 500);
+      }
         
         let copy = document.getElementById("copy")
              copy.onclick = function()
