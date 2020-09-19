@@ -128,6 +128,9 @@
             console.log(c)
             document.getElementById("p1").value = c;
             document.body.style.backgroundColor = c;
+            var metaThemeColor = document.querySelector("meta[name=theme-color]");
+            metaThemeColor.setAttribute(""content",c);
+            
         }
         
         let copy = document.getElementById("copy")
