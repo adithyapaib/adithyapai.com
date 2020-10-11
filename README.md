@@ -1,2 +1,2 @@
 # adithyapai.com
-My Website Repo
+My Website Private Repo
