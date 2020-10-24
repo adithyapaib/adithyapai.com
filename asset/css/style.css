@@ -1160,6 +1160,9 @@ canvas {
 .projects .s4 .img {
   background-image: url("/img/project4.webp");
 }
+.projects .s5 .img {
+  background-image: url("/img/project5.webp");
+}
 
 .form {
   width: 100%;
