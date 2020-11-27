@@ -1202,8 +1202,8 @@ canvas {
   text-align: center;
   font-weight: 600;
   font-size: 2em;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -1288,7 +1288,7 @@ footer {
   padding: 30px;
   background: #000;
   color: white;
-  margin-top: 90px;
+  margin-top: 50px;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
