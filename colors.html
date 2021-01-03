@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>randomColorGenerator();</title>
-    <meta name="theme-color" content="#00c000">
+    <meta name="theme-color" content="#000">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="BsRcrQH_YwBW4zyBT2AexW2QIhoXcLCrtPoTWpZr7Bg" />
     <meta name="Description" content="Get Stunning Colors for your project!"/>
@@ -56,6 +56,7 @@
         border: none;
         margin: 2px;
         transition: all 0.4s ease 0s;
+        cursor: pointer;
     }
 
     button:active {
@@ -130,6 +131,8 @@
             var metaThemeColor = document.querySelector("meta[name=theme-color]");
             metaThemeColor.setAttribute("content",c);
            setTimeout(function(){ document.body.style.backgroundColor = c; }, 15);
+           document.getElementById("copy").innerHTML="Copy"
+           document.getElementById("copy").style.background = "#ed3330";
       }
         
         let copy = document.getElementById("copy")
@@ -137,10 +140,11 @@
              {
                 let s = document.getElementById("p1");
                 s.select();
-                document.getElementById("copy").innerHTML="Copied  !!!"
+                document.getElementById("copy").innerHTML="Copied !"
                 document.getElementById("copy").style.color="#308E4A"
                 document.execCommand("copy");
                 window.getSelection().empty();
+                document.getElementById("copy").style.background="#3ACF3C";
                 
              }
     </script>
