@@ -59,6 +59,19 @@ canvas {
 .dark-mode {
   background: #080808;
   color: white;
+  animation: darkmode 1.5s forwards;
+}
+@keyframes darkmode
+{
+  0%
+  {
+    background: white;
+  }
+
+  100%
+  {
+    background: #080808;
+  }
 }
 
 #preloader {
@@ -166,6 +179,7 @@ canvas {
 
 .dark-mode .navbar {
   background: #080808;
+  
 }
 
 .navbar .navbar-brand {
@@ -530,6 +544,7 @@ canvas {
   background: linear-gradient(315deg, #090909, #070707);
   -webkit-box-shadow: -10px -10px 20px #000000, 10px 10px 20px #141414;
   box-shadow: -10px -10px 20px #000000, 10px 10px 20px #141414;
+  animation: darkmode 1.5s forwards;
 }
 
 .slid1 .box1 {
@@ -672,7 +687,7 @@ canvas {
 
 .slid2 .box2 .content .web .web-body ul li {
   list-style: none;
-  margin: 7px;
+  margin: 9px;
   width: 70px;
   font-weight: 500;
 }
@@ -683,6 +698,7 @@ canvas {
   -webkit-box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
   box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
   border: white 4px solid;
+  animation: darkmode 1.5s forwards;
 }
 
 .slid3 .box3 {
@@ -996,6 +1012,7 @@ canvas {
   background: #080808;
   -webkit-box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
   box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
+  animation: darkmode 1.5s forwards;
 }
 
 .projects .project-card {
@@ -1122,6 +1139,7 @@ canvas {
   color: white !important;
   -webkit-box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
   box-shadow: 5px 5px 10px #030303, -5px -5px 10px #0d0d0d;
+  animation: darkmode 1.5s forwards;
 }
 
 .dark-mode .project-card .site {
@@ -1135,10 +1153,12 @@ canvas {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  
 }
 
 .dark-mode .project-card .decription {
   background: #000;
+  animation: darkmode 0.8s forwards;
 }
 .projects .s0 .img {
   background-image: url("/img/project0.png");
@@ -1267,6 +1287,7 @@ canvas {
   background: #080808;
   -webkit-box-shadow: -5px 5px 15px #030303, 5px -5px 10px #0d0d0d;
   box-shadow: -5px 5px 15px #030303, 5px -5px 10px #0d0d0d;
+  animation: darkmode 1.5s forwards;
 }
 
 .dark-mode .form input {
