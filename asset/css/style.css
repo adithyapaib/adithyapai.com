@@ -154,7 +154,7 @@ canvas {
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -332,7 +332,7 @@ canvas {
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1173,7 +1173,7 @@ canvas {
 }
 
 .projects .s3 .img {
-  background-image: url("/img/project3.webp");
+  background-image: url("/img/project3.png");
 }
 
 .projects .s4 .img {
@@ -1182,10 +1182,17 @@ canvas {
 .projects .s5 .img {
   background-image: url("/img/project5.png");
 }
+.projects .s6 .img {
+  background-image: url("/img/p6.png");
+}
+.projects .s7 .img {
+  background-image: url("/img/p7.png");
+}
+
 
 .form {
   width: 100%;
-  height: 150vh;
+  height: 130vh;
   min-height: -webkit-max-content;
   min-height: -moz-max-content;
   min-height: max-content;
