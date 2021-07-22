@@ -418,10 +418,10 @@
          <form action=https://formsubmit.co/paiadithya26@gmail.com method=POST>
             <label for=name>Name</label><br><input name=name id=name required><br><label for=email>Email</label><br><input name=email type=email id=email inputmode=email required><br><label for=phone>Phone</label><br><input name=phone type=tel id=phone inputmode=tel><br><label for=message>Message</label><br>
             <textarea class=form-control id=message name=message required rows=4></textarea>
-            <div class="g-recaptcha" data-sitekey="6LcYGbEbAAAAAFi6_WlJCkwRwXBJB6F8K_GJADPW" id="captcha"></div>
-            <div class=btn><button type=submit>Submit</button></div>
+            <label for=captcha>Captcha</label>
+            <input type="text" placeholder=" " id="rand" name="captch" required> 
+            <div class=btn><button id="submi" type=submit>Submit</button></div>
             <input name=_next type=hidden value=https://adithyapai.com/thanks.html> <input name=_captcha type=hidden value=false>
-            
          </form>
       </div>
       <footer>
@@ -433,8 +433,25 @@
          if(matched) {
             darkmode();
          }
+         let randNo1 = Math.floor(Math.random() * (5)), randNo2 = Math.floor(Math.random() * (5));  ;    
+         randNo = randNo1 + randNo2;   
+         document.getElementById("submi").disabled = true
+         document.getElementById("submi").style.color = "gray" ;
+         document.getElementById('rand').placeholder = `${randNo1} + ${randNo2} = ?`;  
+         let rand = document.getElementById('rand');
+         rand.addEventListener('input', function(){
+            if( document.getElementById('rand').value == randNo )
+         {
+             document.getElementById("submi").disabled = false;
+         document.getElementById("submi").style.color = "white" ;
+         }
+         else
+         {
+            document.getElementById("submi").style.color = "gray" ;
+         }
+
+         })
         
-         
  </script>    
  </body>
       </html>
