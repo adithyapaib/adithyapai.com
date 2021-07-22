@@ -74,7 +74,7 @@ canvas {
   }
 }
 
-/* #preloader {
+ #preloader {
   background: #000;
   position: fixed;
   width: 100vw;
@@ -101,7 +101,7 @@ canvas {
   opacity: 10;
   -webkit-animation: animate 4s linear;
   animation: animate 4s linear;
-} */
+} 
 
 @-webkit-keyframes animate {
   0% {
