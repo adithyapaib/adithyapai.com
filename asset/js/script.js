@@ -60,9 +60,9 @@ var typed = new Typed(".typed", {
     '"If it is important to you, <br> You will find a way.<br> If not, you’ll find an excuse! " <br> — Ryan Blair  ',
     "Hi there !",
     "I am Adithya Pai B 💯",
-    "I am a Front-End Developer ✨",
-    "I am a UI/UX designer 🌈",
-    "I am a Gamer 💙",
+     "I am OpenSource Contributer ✨",
+    "I love to do Backend Development🐱‍🏍",
+    "Devops :P",
     "Feel free to leave a message !⚡",
     ": )"
   ],
